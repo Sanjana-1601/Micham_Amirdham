@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>donor register</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='donregstyle.css') }}">
+</head>
+<body>
+    <div class="first">
+      <p class="word">Donator's Food Details</p>
+    </div>
+    <div class="container">
+        <form action="/donreg" , method="POST">
+
+          <label for="name"><h3>Name</h3></label>
+          <input type="text" id="name" name="firstname" value = "{{ value1 }}">
+          <label for="number"><h3>Phone Number</h3></label>
+          <input type="text" id="lname" name="numb" value = "{{ value2 }}">    
+          <label for="number"><h3>Number of People who can be fed</h3></label>
+          <input type="text" id="lname" name="fed" placeholder="Number of People..">
+          <label for="Area"><h3>Address</h3></label>
+          <input type="text" id="lname" name="add" placeholder="Address..">
+          <label for="Foodtype"><h3>Type of food</h3></label>
+          <input type="radio" name="food" value="V" required>Veg
+          <input type="radio" name="food" value="NV" required>Non-Veg
+          <label for="Menu"><h3>Menu</h3></label>
+          <textarea id="subject" name="menu" placeholder="Write something.." style="height:200px"></textarea>
+          <input type="submit" value="Submit">
+     
+        </form>
+    </div>
+</body>
+</html>

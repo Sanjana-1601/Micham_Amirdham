@@ -1,0 +1,17 @@
+.thanku{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+    text-align: center;
+    color:rgb(13, 52, 61) ;
+}
+
+body{
+    background-image: linear-gradient(to right, #c3e3e9 , #b2e0c0);
+}
+
+.home{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color:rgb(13, 52, 61) ;
+}

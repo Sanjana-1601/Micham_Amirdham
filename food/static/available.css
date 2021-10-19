@@ -1,0 +1,14 @@
+body{
+    background-image: linear-gradient(to right, #fce2b1 , #f2d9fa, #d9fae3);
+}
+.avail
+{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.head{
+    font-size: 40px;
+    color: rgb(51, 15, 33);
+    text-align: center;
+}
